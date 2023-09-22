@@ -1,4 +1,4 @@
-import { Box, Stack, VStack, Heading, HStack, Button, Input, Text } from '@chakra-ui/react'
+import { Box, Stack, VStack, Heading, HStack, Button, Text } from '@chakra-ui/react'
 import React from 'react'
 import { AiOutlineInstagram, AiOutlineLinkedin, AiOutlineFacebook} from 'react-icons/ai'
 import {SiFiverr} from 'react-icons/si';

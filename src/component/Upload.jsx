@@ -1,4 +1,4 @@
-import { Container, VStack, HStack, Input, Button } from '@chakra-ui/react'
+import { Container, VStack, Button } from '@chakra-ui/react'
 import Form from 'react-bootstrap/Form';
 import { AiOutlineCloudUpload } from 'react-icons/ai'
 import React from 'react'
