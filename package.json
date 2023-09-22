@@ -1,8 +1,8 @@
 {
-  "homepage": "https://DrXAyush.github.io/two",
+  "homepage": "https://DrXAyush.github.io/cixorg-studios",
   "name": "my-app",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@chakra-ui/react": "^2.8.0",
     "@emotion/react": "^11.11.1",
@@ -23,7 +23,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "npm start build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",

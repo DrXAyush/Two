@@ -35,7 +35,7 @@ const Home = () => {
                     direction={['column', 'row']}
                 >
                     <Image src={img5} h={['40', '400']} filter={'hue-rotate(-130deg)'} />
-                    <Text letterSpacing={'widest'} lineHeight={'190%'} p={['4', '16']} textAlign={'left'} fontSize={'1.2rem'}>
+                    <Text letterSpacing={['normal','widest']} lineHeight={'190%'} p={['0', '16']} textAlign={'left'} fontSize={'1.2rem'}>
                         &#x2022; Vibrant Color Grading, Color Correction <br />
 
                         &#x2022; Green seenes <br />
@@ -78,28 +78,36 @@ const MyCarousel = () => (
     >
         <Box w="full" h={['50vh', '100vh']}>
             <Image src={img1} h={'full'} w={'full'} objectFit={'cover'} />
-            <Heading bgColor={'blackAlpha.600'} color={'white'} {...headingOptions}>
-                Watch The Future
+            <Heading bgColor={'blackAlpha.600'} color={'white'} {...headingOptions} fontSize={'5rem'} style={{
+                fontFamily: 'Montserrat, sans-serif;'
+            }}>
+                Welcome to CIXORG Studios
             </Heading>
         </Box>
         <Box w="full" h={['50vh', '100vh']}>
             <Image src={img2} h="full" w={'full'} objectFit={'cover'} />
-            <Heading bgColor={'whiteAlpha.900'} color={'black'} {...headingOptions}>
-                Future is Gaming
+            <Heading bgColor={'whiteAlpha.900'} color={'black'} {...headingOptions} style={{
+                fontFamily: 'Montserrat, sans-serif;'
+            }}>
+                Video Editing
             </Heading>
         </Box>
 
         <Box w="full" h={['50vh', '100vh']}>
             <Image src={img3} h="full" w={'full'} objectFit={'cover'} />
-            <Heading bgColor={'whiteAlpha.600'} color={'black'} {...headingOptions}>
-                Gaming on Console
+            <Heading bgColor={'whiteAlpha.600'} color={'black'} {...headingOptions} style={{
+                fontFamily: 'Montserrat, sans-serif;'
+            }}>
+                Motion Graphics
             </Heading>
         </Box>
 
         <Box w="full" h={['50vh', '100vh']}>
             <Image src={img4} h="full" w={'full'} objectFit={'cover'} />
-            <Heading bgColor={'whiteAlpha.600'} color={'black'} {...headingOptions}>
-                Night life is cool
+            <Heading bgColor={'whiteAlpha.600'} color={'black'} {...headingOptions} style={{
+                fontFamily: 'Montserrat, sans-serif;'
+            }}>
+                Customised Thumbnails
             </Heading>
         </Box>
     </Carousel>
